@@ -1,0 +1,67 @@
+.heading {
+  text-align: center;
+  margin: 5%;
+  text-transform: uppercase;
+}
+.company-list {
+  padding: 2rem;
+}
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around !important;
+  padding-left: 5rem !important;
+  padding-right: 5rem !important;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.nav {
+  background-color: #fafafa;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin-bottom: 2rem;
+}
+.nav-item a {
+  display: inline-block;
+  margin: 0 3rem;
+  font-size: 2rem;
+  color: #2980b9;
+  opacity: 0.7;
+  transition: 0.25s;
+}
+
+.nav-item a:hover {
+  opacity: 1;
+}
+
+.container_nav {
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 770px) {
+  /* For mobile phones: */
+  .nav-item .nav-link {
+    font-size: 1.2rem !important;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .nav-item .nav-link {
+    font-size: 1rem !important;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: row !important;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
